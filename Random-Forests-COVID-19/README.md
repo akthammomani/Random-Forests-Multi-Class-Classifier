@@ -39,3 +39,12 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 - ROC AUC
 - Create Confusion Matrix Plots
 ![cm](https://user-images.githubusercontent.com/67468718/106378205-cbf3f700-6357-11eb-8a1d-927fa2869c02.JPG)
+
+## 7. Hyperparameter Tuning using GridSearchCV
+| Random Froests (Base) | Random Forests (Tuned)|
+|:---------------------:|:---------------------:|
+|Accuracy= 0.849|Accuracy= 0.869|
+|f1_score: 0.824|f1_score: 0.835|
+|ROC AUC: 0.746|ROC AUC: 0.747|
+
+
