@@ -19,3 +19,15 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 - Import packages
 - Load The Data
 - Explore the data
+
+## 5. Cleaning, Transforming, and Visualizing
+
+- Check the intgerity of the data and let's try fix as much as possible if any.
+- Handle Numerical Missing Data.
+- Create a new column named 'n_age' which is the calculated age based on the birth year column.
+- Drop Insignificant columns.
+- Visualization
+- Check for duplicated rows.
+- Handle Categorical Missing Data Using **KNN imputer "fancyimpute"** to encode and impute the missing Data.
+- Check for duplicated rows.
+
