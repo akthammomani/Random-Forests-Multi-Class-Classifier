@@ -53,7 +53,7 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 
 ## 9. Conclusion
 
- * The Random Forests (Base) Model shows an overall accuracy of 84.9%, which is great and indicates that our model was effectively able to identify the status of the COVID-19 patients in the South Korea dataset despite the fact that we have imbalanced class **"State"**, due to the nature of the dataset and the topic we're trying to tackle today which is **Predicting COVID-19 Patients State** , as shown below:
+ * The Random Forests (Base) Model shows an overall accuracy of 84.9%, which is great and indicates that our model was effectively able to identify the status of the COVID-19 patients in the South Korea dataset despite the fact that we have imbalanced class **"State"**, due to the nature of the dataset and the topic we're trying to tackle here which is **Predicting COVID-19 Patients State** , as shown below:
 
 |code|state |count|
 |:--:|:--: |:--:|
