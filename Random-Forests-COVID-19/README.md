@@ -40,14 +40,16 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 - Create Confusion Matrix Plots
 ![cm](https://user-images.githubusercontent.com/67468718/106378205-cbf3f700-6357-11eb-8a1d-927fa2869c02.JPG)
 
-## 7. Hyperparameter Tuning using GridSearchCV
+## 7. Features Importance
+
+## 8. Hyperparameter Tuning using GridSearchCV
 | Random Froests (Base) | Random Forests (Tuned)|
 |:---------------------:|:---------------------:|
 |Accuracy= 0.849|Accuracy= 0.869|
 |f1_score: 0.824|f1_score: 0.835|
 |ROC AUC: 0.746|ROC AUC: 0.747|
 
-## 8. Conclusion
+## 9. Conclusion
 
  * The Random Forests (Base) Model shows an overall accuracy of 84.9%, which is great and indicates that our model was effectively able to identify the status of the COVID-19 patients in the South Korea dataset despite the fact that we have imbalanced class **"State"**, due to the nature of the dataset and the topic we're trying to tackle today which is **Predicting COVID-19 Patients State** , as shown below:
 
@@ -58,7 +60,7 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 |0|deceased |     34|
 
  * As shown in [The Decision Tree used in the Base Model](https://github.com/akthammomani/Random-Forests-Multi-Class-Classifier/blob/main/Random-Forests-COVID-19/DT_base.md) vs [the same Decision Tree used in the Tuned Model](https://github.com/akthammomani/Random-Forests-Multi-Class-Classifier/blob/main/Random-Forests-COVID-19/DT_Tuned.md), There's huge difference between the decision Tree we visualized using the Base Model compared to the Tuned Model. The Base Model lead to a fully grown and unpruned DT which looks very large. so after we fined tuned the Random Forest Parameters we managed to improve Accuracy by 2% from 84.9% to 86.9 and there was a clear reduction in the Decision Trees size thus reducing memory consumption, the complexity and we find the split choices that will get us to the pure nodes much faster resulting in more information gain (more prediction power)
- * The popularity of random forest is primarily due to how well it performs in a multitude of data situations. It tends to handle highly correlated features well, where as a linear regression model would not. In this case study we demonstrate the performance ability even with only a few features and almost all of them being highly correlated with each other.
+ * The popularity of random forest is primarily due to how well it performs in a multitude of data situations. It tends to handle highly correlated features well, where as a linear regression model would not. In this project we demonstrate the performance ability even with only a few features and almost all of them being highly correlated with each other.
 Random Forest is also used as an efficient way to investigate the importance of a set of features with a large data set. Consider random forest to be one of your first choices when building a decision tree, especially for multiclass classifications.
 
 
