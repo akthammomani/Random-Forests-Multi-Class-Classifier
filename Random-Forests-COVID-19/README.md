@@ -31,3 +31,11 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 - Handle Categorical Missing Data Using **KNN imputer "fancyimpute"** to encode and impute the missing Data.
 - Check for duplicated rows.
 
+## 6. Random Forest Model
+- Split the data into test and train subsamples
+- Scale data to prep for model creation
+- Fit Random Forest Classifier:
+- Classification Report
+- ROC AUC
+- Create Confusion Matrix Plots
+![cm](https://user-images.githubusercontent.com/67468718/106378205-cbf3f700-6357-11eb-8a1d-927fa2869c02.JPG)
