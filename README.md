@@ -1,6 +1,6 @@
 # Random Forests
 
-![RF](https://user-images.githubusercontent.com/67468718/106378751-fb0c6780-635b-11eb-8b2b-ec0662a35f9e.JPG)
+![Capture_rf](https://user-images.githubusercontent.com/67468718/106399014-1498c800-63cb-11eb-8d32-ed42b8bcf569.JPG)
 
 ## Introduction:
 
