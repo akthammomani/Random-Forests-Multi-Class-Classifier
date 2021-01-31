@@ -42,6 +42,8 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 
 ## 7. Features Importance
 
+![features](https://user-images.githubusercontent.com/67468718/106378556-b46a3d80-635a-11eb-9d28-eaa858cccc72.JPG)
+
 ## 8. Hyperparameter Tuning using GridSearchCV
 | Random Froests (Base) | Random Forests (Tuned)|
 |:---------------------:|:---------------------:|
