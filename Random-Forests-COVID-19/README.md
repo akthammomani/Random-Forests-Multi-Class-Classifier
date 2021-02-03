@@ -44,16 +44,16 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 ![features_2nd_round](https://user-images.githubusercontent.com/67468718/106551781-d1be1980-64ca-11eb-9c2e-cab92d22e1d7.JPG)
 
 ## 8. Hyperparameter Tuning using GridSearchCV
-| Random Froests (Base) | Random Forests (Tuned)|
+| <code>Random Froests (Base)</code> | <code>Random Forests (Tuned)</code>|
 |:---------------------:|:---------------------:|
 |Accuracy= 85.360 %|Accuracy= 86.712 %|
 |f1_score= 82.903 %|f1_score= 83.112 %|
 
 ## 9. Conclusion
 
- * The Random Forests (Base) Model shows an overall accuracy of 85.36%, which is great and indicates that our model was effectively able to identify the status of the COVID-19 patients in the South Korea dataset despite the fact that we have imbalanced class **"State"**, due to the nature of the dataset and the topic we're trying to tackle here which is **Predicting COVID-19 Patients State** , as shown below:
+ * The Random Forests (Base) Model shows an overall <code>accuracy of 85.36%</code>, which is great and indicates that our model was effectively able to identify the status of the COVID-19 patients in the South Korea dataset despite the fact that we have imbalanced class **"State"**, due to the nature of the dataset and the topic we're trying to tackle here which is **Predicting COVID-19 Patients State** , as shown below:
 
-|code|state |count|
+|<code>code</code>|<code>state</code>|<code>count</code>|
 |:--:|:--: |:--:|
 |1|isolated|    1878|
 |2|released |    306|
