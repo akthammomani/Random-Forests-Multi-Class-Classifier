@@ -47,7 +47,7 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 | Random Froests (Base) | Random Forests (Tuned)|
 |:---------------------:|:---------------------:|
 |Accuracy= 85.360 %|Accuracy= 86.712 %|
-|f1_score: 82.903 %|f1_score: 83.112 %|
+|f1_score= 82.903 %|f1_score= 83.112 %|
 
 ## 9. Conclusion
 
