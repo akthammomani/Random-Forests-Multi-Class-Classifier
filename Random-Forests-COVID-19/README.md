@@ -44,7 +44,7 @@ Using a dataset from the South Korean cases of COVID-19 provided on [Kaggle](htt
 ![features_2nd_round](https://user-images.githubusercontent.com/67468718/106551781-d1be1980-64ca-11eb-9c2e-cab92d22e1d7.JPG)
 
 ## 8. Hyperparameter Tuning using GridSearchCV
-| <code>Random Froests (Base)</code> | <code>Random Forests (Tuned)</code>|
+| <code>Random Forests (Base)</code> | <code>Random Forests (Tuned)</code>|
 |:---------------------:|:---------------------:|
 |Accuracy= 85.360 %|Accuracy= 86.712 %|
 |f1_score= 82.903 %|f1_score= 83.112 %|
